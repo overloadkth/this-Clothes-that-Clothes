@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="mju.com.iojo.AddClothes.AddClothesActivity"
+    tools:showIn="@layout/activity_add_clothes">
+
+    <ImageView
+        android:id="@+id/AddImageView1"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_margin="5dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true" />
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:showIn="@layout/activity_add_clothes"
+        android:id="@+id/relativeLayout"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/AddImageView1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true">
+        <Button
+            android:id="@+id/AddButton1"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:paddingTop="5dp"
+            android:paddingLeft="5dp"
+            android:text="사진 선택"
+            android:textSize="30dp"
+            android:onClick="onClick"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true" />
+
+        <Button
+            android:id="@+id/AddButton2"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:text="등록"
+            android:textSize="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/AddButton1"
+            android:onClick="onClick" />
+    </RelativeLayout>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/addClothesSpinner1"
+        android:textSize="30dp"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true" />
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/addClothesSpinner2"
+        android:textSize="30dp"
+        android:layout_below="@+id/addClothesSpinner1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true" />
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/addClothesSpinner3"
+        android:textSize="30dp"
+        android:layout_below="@+id/addClothesSpinner2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true" />
+
+</RelativeLayout>

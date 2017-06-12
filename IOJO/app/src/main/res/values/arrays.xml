@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="AddSpinnerArray1">
+        <item>아우터</item>
+        <item>상의</item>
+        <item>하의</item>
+    </string-array>
+
+    <string-array name="AddSpinnerArray2_1">
+        <item>코트</item>
+        <item>점퍼</item>
+        <item>패딩</item>
+        <item>자켓</item>
+        <item>가디건</item>
+    </string-array>
+
+    <string-array name="AddSpinnerArray2_2">
+        <item>셔츠</item>
+        <item>니트</item>
+        <item>긴팔</item>
+        <item>반팔</item>
+        <item>트레이닝</item>
+    </string-array>
+
+    <string-array name="AddSpinnerArray2_3">
+        <item>청바지</item>
+        <item>반바지</item>
+        <item>면바지</item>
+        <item>슬랙스</item>
+        <item>트레이닝</item>
+    </string-array>
+
+    <string-array name="AddSpinnerArray3">
+        <item>블랙</item>
+        <item>화이트</item>
+        <item>그레이</item>
+        <item>레드</item>
+        <item>옐로우</item>
+        <item>오렌지</item>
+        <item>그린</item>
+        <item>블루</item>
+        <item>네이비</item>
+        <item>브라운</item>
+        <item>베이지</item>
+        <item>카키</item>
+        <item>핑크</item>
+    </string-array>
+</resources>

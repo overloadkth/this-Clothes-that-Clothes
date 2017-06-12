@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_main" tools:context=".MainActivity"
+    android:id="@+id/MainActivityLayout" >
+
+
+    <TableLayout
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:orientation="vertical"
+        android:paddingTop="160dp"
+        android:weightSum="1"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="-56dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.15">
+
+            <Button
+                android:id="@+id/StyleRecommendButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.15"
+                android:background="@drawable/mainbuttons"
+                android:drawableTop="@drawable/ic_clothes"
+                android:paddingTop="5dp"
+                android:text="스타일 추천" />
+
+            <Button
+                android:id="@+id/ClosetAdminButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.15"
+                android:background="@drawable/mainbuttons"
+                android:drawableTop="@drawable/ic_closet"
+                android:paddingTop="5dp"
+                android:text="옷장 관리" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tr1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.15">]
+            <Button
+                android:id="@+id/AddClothesButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.15"
+                android:background="@drawable/mainbuttons"
+                android:drawableTop="@drawable/ic_camera"
+                android:paddingTop="5dp"
+                android:text="옷장 등록" />
+
+            <Button
+                android:id="@+id/SettingButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.15"
+                android:background="@drawable/mainbuttons"
+                android:drawableTop="@drawable/ic_setting"
+                android:paddingTop="5dp"
+                android:text="설정" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

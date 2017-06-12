@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:andorid="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="아우터">
+        <menu>
+            <item
+                android:id="@+id/coat"
+                android:icon="@drawable/ic_action_coat"
+                android:title="코트" />
+            <item
+                android:id="@+id/jumper"
+                android:icon="@drawable/ic_action_jumper"
+                android:title="점퍼" />
+            <item
+                android:id="@+id/jacket"
+                android:icon="@drawable/ic_action_jacket"
+                android:title="자켓" />
+            <item
+                android:id="@+id/cardigan"
+                android:icon="@drawable/ic_action_cardigan"
+                android:title="가디건" />
+            <item
+                android:id="@+id/padding"
+                android:icon="@drawable/ic_action_padding"
+                android:title="패딩" />
+        </menu>
+    </item>
+
+    <item
+        android:title="상의">
+        <menu>
+            <item
+                android:id="@+id/shirts"
+                android:icon="@drawable/ic_action_shirts"
+                android:title="셔츠" />
+            <item
+                android:id="@+id/knit"
+                android:icon="@drawable/ic_action_knit"
+                android:title="니트" />
+            <item
+                android:id="@+id/longsleeve"
+                android:icon="@drawable/ic_action_long"
+                android:title="긴팔" />
+            <item
+                android:id="@+id/shortsleeve"
+                android:icon="@drawable/ic_action_short"
+                android:title="반팔" />
+            <item
+                android:id="@+id/training"
+                android:icon="@drawable/ic_action_training_s"
+                android:title="트레이닝" />
+        </menu>
+    </item>
+    <item
+        android:title="하의">
+        <menu>
+            <item
+                android:id="@+id/jeans"
+                android:icon="@drawable/ic_action_jeans"
+                android:title="청바지" />
+            <item
+                android:id="@+id/shorts"
+                android:icon="@drawable/ic_action_shorts"
+                android:title="반바지" />
+            <item
+                android:id="@+id/chino"
+                android:icon="@drawable/ic_action_chino"
+                android:title="면바지" />
+            <item
+                android:id="@+id/slacks"
+                android:icon="@drawable/ic_action_slacks"
+                android:title="슬렉스" />
+            <item
+                android:id="@+id/training_pants"
+                android:icon="@drawable/ic_action_training_b"
+                android:title="트레이닝" />
+        </menu>
+    </item>
+</menu>
